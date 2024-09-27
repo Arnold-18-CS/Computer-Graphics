@@ -1,5 +1,16 @@
 import cairo
 
+
+# --------------------------- x-axis
+# |
+# |
+# |
+# |
+# |
+# |
+# |
+# y-axis
+
 # Setting up a surface - first step
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24, 600, 600) 
 # PARAMETERS: output type (ImageSurface == png)
