@@ -17,11 +17,12 @@ while(points>0):
     coordinates.append(A)
     points-=1
 
-# print(coordinates)
+print(coordinates)
 
 ctx.move_to(*coordinates[0])
+print(*coordinates[0])
+i = 1
 while(og_points-1 > 0):
-    i = 1
     ctx.line_to(*coordinates[i])
     i+=1
     og_points-=1
