@@ -1,3 +1,4 @@
+# Personal Program to create a polygon with however many sides
 import cairo 
 
 surface = cairo.ImageSurface(cairo.FORMAT_RGB24, 600, 600)
